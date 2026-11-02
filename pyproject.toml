@@ -1,0 +1,12 @@
+[project]
+name = "noblecloak-langgraph"
+version = "0.0.0"
+description = "Approvals for LangGraph (Python): decide, pause, verify, resume."
+readme = "README.md"
+license = "Apache-2.0"
+authors = [{ name = "NobleCloak" }]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/NobleCloak/noblecloak-langgraph-py"
