@@ -1,3 +1,7 @@
+[build-system]
+requires = ["hatchling==1.33.0"]
+build-backend = "hatchling.build"
+
 [project]
 name = "noblecloak-langgraph"
 version = "0.0.0"
@@ -7,6 +11,10 @@ license = "Apache-2.0"
 authors = [{ name = "NobleCloak" }]
 requires-python = ">=3.12"
 dependencies = []
+classifiers = ["Development Status :: 1 - Planning"]
 
 [project.urls]
 Repository = "https://github.com/NobleCloak/noblecloak-langgraph-py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/noblecloak_langgraph"]
