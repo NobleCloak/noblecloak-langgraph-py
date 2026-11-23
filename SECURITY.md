@@ -2,20 +2,14 @@
 
 ## Reporting a vulnerability
 
-Please do not open a public issue for a security problem.
+Please do not open a public issue for a security problem. Use GitHub's **Report a vulnerability** button on the
+Security tab (private vulnerability reporting).
 
-- While this repository is private, report it to the repository owners listed in `CODEOWNERS`
-  through a private channel.
-- Once the repository is public, use GitHub's **Report a vulnerability** button on the Security tab
-  (private vulnerability reporting). The NobleCloak trust center becomes the primary route when it
-  is published. Its address is added here before the repository goes public (see
-  `FLIP-TO-PUBLIC.md`).
-
-Include the affected package and version, a description of the issue, and steps to reproduce it.
+Include the affected version, a description of the issue, and steps to reproduce it.
 
 ## Scope
 
-All packages published from this repository under the `@noblecloak/*` scope.
+The `noblecloak-langgraph` package published from this repository.
 
 ## Bug bounty
 
